@@ -1,0 +1,40 @@
+.wrapper {
+  max-width: 760px;
+  margin: 1.5rem auto 0;
+  padding-bottom: 2rem;
+}
+
+.title {
+  margin: 0 0 0.9rem;
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+.item {
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 0.85rem 1rem;
+}
+
+.item + .item {
+  margin-top: 0.65rem;
+}
+
+.summary {
+  cursor: pointer;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  list-style: none;
+}
+
+.summary::-webkit-details-marker {
+  display: none;
+}
+
+.body {
+  margin: 0.75rem 0 0;
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+}

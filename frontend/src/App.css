@@ -1,0 +1,134 @@
+/* App.css — Layout y tokens de diseño de la aplicación */
+
+/* ── Variables (design tokens) ──────────────────────────────────────────────── */
+:root {
+  --green-main:     #2d6a3f;
+  --green-border:   #b7dfbf;
+  --green-soft-bg:  #e6f4ea;
+
+  --amber-text:     #7a4200;
+  --amber-border:   #e8c97a;
+  --amber-soft-bg:  #fdf5dc;
+
+  --surface:        #ffffff;
+  --bg:             #f4f5f3;
+  --border:         #dde1da;
+  --text-primary:   #1a1a18;
+  --text-secondary: #5a5e56;
+
+  --radius:         8px;
+  --max-width:      1280px;
+  --sidebar-width:  300px;
+}
+
+/* ── Reducción de movimiento ─────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+/* ── Layout principal ────────────────────────────────────────────────────────── */
+.app-main {
+  max-width: var(--max-width);
+  margin: 1.5rem auto;
+  padding: 0 2rem 2rem;
+  min-height: calc(100vh - 3rem);
+}
+
+.app-main-home {
+  display: block;
+}
+
+.app-main-detail {
+  display: block;
+  max-width: 960px;
+}
+
+.app-home,
+.app-detail {
+  min-width: 0;
+}
+
+@media (max-width: 900px) {
+  .app-main {
+    padding: 0 1rem 1.5rem;
+  }
+}
+
+/* ── Estados ─────────────────────────────────────────────────────────────────── */
+.state-msg {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  padding: 1.25rem 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin: 0;
+}
+
+.state-error {
+  padding: 1.25rem 1.5rem;
+  background: var(--amber-soft-bg);
+  border: 1px solid var(--amber-border);
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.state-error p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--amber-text);
+}
+
+.state-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.btn-retry {
+  align-self: flex-start;
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--amber-border);
+  border-radius: calc(var(--radius) / 2);
+  background: var(--surface);
+  color: var(--amber-text);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-retry:hover {
+  background: var(--amber-soft-bg);
+}
+
+.btn-retry:focus-visible {
+  outline: 2px solid var(--amber-text);
+  outline-offset: 2px;
+}
+
+.btn-secondary {
+  align-self: flex-start;
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius) / 2);
+  background: var(--surface);
+  color: var(--text-primary);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  border-color: var(--green-main);
+  color: var(--green-main);
+}
+
+.btn-secondary:focus-visible {
+  outline: 2px solid var(--green-main);
+  outline-offset: 2px;
+}

@@ -1,0 +1,102 @@
+.panel {
+  max-width: 760px;
+  margin: 1rem auto 0;
+  padding: 1rem 0 0;
+}
+
+.header {
+  margin-bottom: 0.9rem;
+}
+
+.heading {
+  margin: 0 0 0.35rem;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+}
+
+.help {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.message {
+  max-width: 760px;
+  margin: 1rem auto 0;
+  padding: 1rem 1.2rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-secondary);
+}
+
+.error {
+  max-width: 760px;
+  margin: 1rem auto 0;
+  padding: 1rem 1.2rem;
+  background: var(--amber-soft-bg);
+  border: 1px solid var(--amber-border);
+  border-radius: var(--radius);
+  color: var(--amber-text);
+}
+
+.error p {
+  margin: 0;
+}
+
+.list {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.card {
+  width: 100%;
+  text-align: left;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+  cursor: pointer;
+}
+
+.card:hover {
+  border-color: var(--green-border);
+  box-shadow: 0 10px 24px rgba(26, 26, 24, 0.05);
+}
+
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.identifier {
+  font-family: ui-monospace, 'Cascadia Code', monospace;
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: var(--green-main);
+}
+
+.tree,
+.species,
+.title {
+  margin: 0.35rem 0 0;
+}
+
+.tree {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.species {
+  font-size: 0.9rem;
+  color: var(--text-primary);
+}
+
+.title {
+  font-size: 0.83rem;
+  color: var(--text-secondary);
+  word-break: break-word;
+}

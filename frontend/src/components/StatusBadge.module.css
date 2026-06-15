@@ -1,0 +1,51 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  border: 1px solid transparent;
+}
+
+.consistent {
+  background: var(--green-soft-bg);
+  color: var(--green-main);
+  border-color: var(--green-border);
+}
+
+.warning {
+  background: var(--amber-soft-bg);
+  color: var(--amber-text);
+  border-color: var(--amber-border);
+}
+
+.incomplete {
+  background: #eef3f6;
+  color: #355366;
+  border-color: #c9d7e0;
+}
+
+.unevaluated {
+  background: #f2f1ed;
+  color: #666559;
+  border-color: #d8d6cc;
+}
+
+.symbol {
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+.text {
+  line-height: 1;
+}
+
+.compact .text {
+  display: none;
+}
+
+.compact {
+  padding: 0.2rem 0.45rem;
+}

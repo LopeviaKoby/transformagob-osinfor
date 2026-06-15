@@ -1,0 +1,145 @@
+.shell {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2.5rem 0 1rem;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: minmax(0, 210px) 1fr;
+  gap: 1rem;
+  align-items: center;
+  padding: 1.35rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, #173a26 0%, #234b33 100%);
+  border-radius: 18px;
+  box-shadow: 0 18px 40px rgba(19, 41, 29, 0.14);
+}
+
+.logoFrame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 112px;
+  padding: 0.9rem 1rem;
+  background: rgba(255, 255, 255, 0.98);
+  border-radius: 14px;
+}
+
+.logo {
+  display: block;
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+}
+
+.copy {
+  color: #ffffff;
+}
+
+.eyebrow {
+  margin: 0 0 0.45rem;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  line-height: 1.05;
+  color: #ffffff;
+}
+
+.form {
+  padding: 1.4rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 14px 30px rgba(26, 26, 24, 0.04);
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.75rem;
+}
+
+.input {
+  width: 100%;
+  min-width: 0;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  font-size: 1rem;
+  background: #fcfcfb;
+  color: var(--text-primary);
+}
+
+.input:focus-visible {
+  outline: 2px solid var(--green-main);
+  outline-offset: 2px;
+}
+
+.button {
+  padding: 0.9rem 1.25rem;
+  border: 1px solid var(--green-main);
+  border-radius: 12px;
+  background: var(--green-main);
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #245635;
+}
+
+.button:disabled {
+  cursor: wait;
+  opacity: 0.82;
+}
+
+.help {
+  margin: 0.8rem 0 0;
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 640px) {
+  .shell {
+    padding-top: 1.25rem;
+  }
+
+  .banner {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .logoFrame {
+    min-height: auto;
+  }
+
+  .logo {
+    max-width: 170px;
+  }
+
+  .form {
+    padding: 1rem;
+  }
+
+  .row {
+    grid-template-columns: 1fr;
+  }
+}

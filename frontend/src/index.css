@@ -1,0 +1,29 @@
+/* index.css — reset y base mínima */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f4f5f3;
+  color: #1a1a18;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Foco visible global */
+:focus-visible {
+  outline: 2px solid #2d6a3f;
+  outline-offset: 2px;
+}

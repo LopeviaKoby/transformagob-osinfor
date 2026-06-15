@@ -1,0 +1,59 @@
+/* src/print.css — Estilos de impresión para el resumen de trazabilidad */
+
+[data-print-root="verification"] {
+  display: none;
+}
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 10mm;
+  }
+
+  /* Ocultar todos los elementos de la interfaz de pantalla */
+  body, html {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 9.5pt;
+    margin: 0;
+    padding: 0;
+  }
+
+  #root > *:not([data-print-root="verification"]) {
+    display: none !important;
+  }
+
+  /* Mostrar el bloque imprimible desde la esquina superior izquierda */
+  [data-print-root="verification"] {
+    display: block !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 9.5pt;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  /* Ocultar elementos específicos que no pertenezcan al reporte */
+  button,
+  a,
+  .localNote,
+  .btns {
+    display: none !important;
+  }
+
+  /* Garantizar saltos de página adecuados en elementos críticos */
+  [class*="qrContainer"],
+  [class*="fullHash"],
+  [class*="volRow"],
+  [class*="footer"],
+  .section {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+}

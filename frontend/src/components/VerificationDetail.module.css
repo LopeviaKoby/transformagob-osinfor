@@ -1,0 +1,262 @@
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.25rem 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.treeCode {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.headingText {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.4rem 1.25rem;
+  margin: 0;
+}
+
+.dl dt {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.dl dd {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--text-primary);
+  word-break: break-word;
+}
+
+.mismatch {
+  color: var(--amber-text);
+}
+
+.mismatchTag,
+.matchTag {
+  display: inline-block;
+  margin-left: 0.4rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  vertical-align: middle;
+}
+
+.mismatchTag {
+  background: var(--amber-soft-bg);
+  color: var(--amber-text);
+  border: 1px solid var(--amber-border);
+}
+
+.matchTag {
+  background: var(--green-soft-bg);
+  color: var(--green-main);
+  border: 1px solid var(--green-border);
+}
+
+.mobilGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media (max-width: 520px) {
+  .mobilGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.subhead {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin: 0 0 0.5rem;
+}
+
+.chipList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chip {
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+  background: #f0f0f0;
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+}
+
+.hashBlock {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.hash {
+  font-family: ui-monospace, 'Cascadia Code', 'Fira Code', monospace;
+  font-size: 0.78rem;
+  color: var(--text-primary);
+  background: #f0f0f0;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  word-break: break-all;
+  flex: 1;
+}
+
+.copyBtn {
+  padding: 0.35rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius) / 2);
+  background: var(--surface);
+  color: var(--text-primary);
+  font-size: 0.82rem;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.copyBtn:hover {
+  border-color: var(--green-main);
+  color: var(--green-main);
+}
+
+.copyBtn:focus-visible {
+  outline: 2px solid var(--green-main);
+  outline-offset: 2px;
+}
+
+.copyAnnounce {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  min-height: 1.2rem;
+  margin-top: 0.25rem;
+}
+
+.disclaimer {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  padding: 1rem 1.5rem;
+  background: #f8f8f6;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.disclaimer p {
+  margin: 0;
+}
+
+.headerMain {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.printBtn {
+  padding: 0.35rem 0.85rem;
+  border: 1px solid var(--green-main);
+  border-radius: calc(var(--radius) / 2);
+  background: var(--green-soft-bg);
+  color: var(--green-main);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.printBtn:hover {
+  background: #d0ebda;
+}
+
+.printBtn:focus-visible {
+  outline: 2px solid var(--green-main);
+  outline-offset: 2px;
+}
+
+.secondaryBtn {
+  padding: 0.35rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius) / 2);
+  background: var(--surface);
+  color: var(--text-primary);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.secondaryBtn:hover {
+  border-color: var(--green-main);
+  color: var(--green-main);
+}
+
+.secondaryBtn:focus-visible {
+  outline: 2px solid var(--green-main);
+  outline-offset: 2px;
+}
+
+.hashDetails {
+  margin-top: 0.75rem;
+}
+
+.hashSummary {
+  font-size: 0.82rem;
+  color: var(--green-main);
+  cursor: pointer;
+  font-weight: 600;
+  user-select: none;
+}
+
+.hashSummary:hover {
+  text-decoration: underline;
+}
+
+.fullHashWrapper {
+  margin-top: 0.4rem;
+  padding: 0.5rem;
+  background: #f5f5f5;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+.fullHash {
+  font-family: ui-monospace, 'Cascadia Code', 'Fira Code', monospace;
+  font-size: 0.78rem;
+  color: var(--text-primary);
+  word-break: break-all;
+}
+
+.balanceText {
+  margin: 0 0 0.85rem;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
