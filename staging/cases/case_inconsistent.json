@@ -1,0 +1,223 @@
+{
+  "schema_version": "2.0",
+  "case_id": "inconsistent-pc01-1170",
+  "case_type": "inconsistent",
+  "join_key": {
+    "titulo_habilitante": "GOREMAD-GRRNYGA-DRFFS/DFFS-TAH/P-MAD-D-008-15",
+    "parcela_corta": "PC 01",
+    "codigo_arbol": "1170"
+  },
+  "verification": {
+    "status": "INCONSISTENTE",
+    "prototype_attestation_eligible": false,
+    "checks": {
+      "fuentes_completas": true,
+      "trozas_despachadas_registradas": true,
+      "especie_coincide_en_supervision": false,
+      "sin_observacion_critica": false,
+      "volumen_censo_mayor_igual_tala": true,
+      "volumen_tala_mayor_igual_trozado": false,
+      "campo_r_validado": false
+    },
+    "observations": "Se encontró especie distinta. Según censo: Estoraque - Myroxylon balsamum (L.) Harms El valor del diametro mayor es menor el rango permisible.",
+    "excluded_rule": {
+      "field": "R",
+      "reason": "Significado no confirmado en las fuentes documentales revisadas."
+    }
+  },
+  "summary": {
+    "titular": "COMUNIDAD NATIVA BELGICA",
+    "plan_operativo": "PO 19",
+    "resolucion": "1120-2025-GOREMAD-GRFFS",
+    "especie_censo": "Myroxylon balsamum | Estoraque",
+    "especie_supervision": "Hymenaea oblongifolia | Azúcar huayo",
+    "volumen_censo_m3": 10.065,
+    "volumen_tala_m3": 9.975,
+    "volumen_trozado_m3": 10.819,
+    "diferencia_tala_trozado_m3": -0.844,
+    "trozas": [
+      "1170/A",
+      "1170/B",
+      "1170/C"
+    ],
+    "gtf": [
+      "017-0001311",
+      "017-0001332",
+      "017-0001349"
+    ]
+  },
+  "lineage": {
+    "censo": "raw/censo_forestal.xlsx",
+    "muestra_supervisada": "raw/muestra_supervisada.xlsx",
+    "tala": "raw/libro_operaciones_pc01.xlsx#TALA",
+    "trozado": "raw/libro_operaciones_pc01.xlsx#TROZADO",
+    "despacho": "raw/libro_operaciones_pc01.xlsx#DESPACHO",
+    "balance": "Pendiente de integración en la siguiente micro-fase"
+  },
+  "records": {
+    "censo": [
+      {
+        "": 236,
+        "num_thabilitante": "GOREMAD-GRRNYGA-DRFFS/DFFS-TAH/P-MAD-D-008-15",
+        "titular_actual": "COMUNIDAD NATIVA BELGICA",
+        "modalidad": "Permisos Forestales - Comunidad Nativa",
+        "departamento": "MADRE DE DIOS",
+        "provincia": "TAHUAMANU",
+        "distrito": "IÑAPARI",
+        "aresolucion_num": "1120-2025-GOREMAD-GRFFS",
+        "aresolucion_fecha": "2025-07-22T00:00:00",
+        "nombre_poa": "PO 19",
+        "especies_aresolucion": "Myroxylon balsamum | Estoraque",
+        "especies": "Myroxylon balsamum | Estoraque",
+        "bloque": " ",
+        "faja": " ",
+        "codigo": 1170,
+        "volumen": 10.065,
+        "dap": 95,
+        "ac": 20,
+        "dmc": 41,
+        "zona": "19S",
+        "coordenada_este": 405629,
+        "coordenada_norte": 8786566,
+        "condicion": "Aprovechable",
+        "estado": "En Pie",
+        "pca": "PC 01",
+        "observacion": "[NULL]"
+      }
+    ],
+    "muestra_supervisada": [
+      {
+        "": 716,
+        "anio_informe": 2026,
+        "num_thabilitante": "GOREMAD-GRRNYGA-DRFFS/DFFS-TAH/P-MAD-D-008-15",
+        "modalidad": "Permisos Forestales - Comunidad Nativa",
+        "departamento": "MADRE DE DIOS",
+        "provincia": "TAHUAMANU",
+        "distrito": "IÑAPARI",
+        "num_informe": "001049-2026-OSINFOR/DSFFFS",
+        "fecha_informe": "2026-05-18T00:00:00",
+        "aresolucion_num": "1120-2025-GOREMAD-GRFFS",
+        "aresolucion_fecha": "2025-07-22T00:00:00",
+        "nombre_poa": "PO 19",
+        "poa_campo": "PO 19",
+        "bloque": " ",
+        "bloque_campo": 0,
+        "faja": "[NULL]",
+        "faja_2": 0,
+        "codigo": 1170,
+        "codigo_campo": 1170,
+        "cod_especies": 2241,
+        "desc_especies": "Myroxylon balsamum | Estoraque",
+        "desc_especies_campo": "Hymenaea oblongifolia | Azúcar huayo",
+        "coincide_especies": "NO",
+        "zona": "19S",
+        "zona_campo": "19S",
+        "coordenada_este": 405629,
+        "coordenada_este_campo": 405621,
+        "coordenada_norte": 8786566,
+        "coordenada_norte_campo": 8786563,
+        "dap": 95,
+        "dap_campo": 0,
+        "dap_campo1": 83,
+        "dap_campo2": 66,
+        "mae_tip_mmedirdap": 0,
+        "mmedir_dap": " ",
+        "ac": 20,
+        "ac_campo": 24.8,
+        "desc_eestado": "En Pie",
+        "desc_eestado_campo": "Movilizado",
+        "desc_econdicion": "Aprovechable",
+        "desc_econdicion_campo": "Aprovechable",
+        "cant_sobre_estima_diametro": 0,
+        "porc_sobre_estima_diametro": 0,
+        "cant_sub_estima_diametro": 0,
+        "porc_sub_estima_diametro": 0,
+        "observacion": "D1=Culata, D2=Despunte, Culata= 1.9 m L=Directo",
+        "pca": "PC01",
+        "pca_campo": "PC 01"
+      }
+    ],
+    "tala": [
+      {
+        "n": 15,
+        "fecha": "01/08/2025",
+        "codigo_del_arbol": 1170,
+        "r": 0,
+        "especie": "Hymenaea oblongifolia Huber Azúcar Huayo",
+        "diametro_mayor_m": 0.8,
+        "diametro_menor_m": 0.64,
+        "longitud_aprovechable_m": 24.5,
+        "volumen_m3": 9.975,
+        "observaciones": "Se encontró especie distinta. Según censo: Estoraque - Myroxylon balsamum (L.) Harms El valor del diametro mayor es menor el rango permisible."
+      }
+    ],
+    "trozado": [
+      {
+        "n": 2,
+        "fecha": "01/09/2025",
+        "codigo_de_la_troza": "1170/A",
+        "r": 0,
+        "especie": "Hymenaea oblongifolia Huber",
+        "diametro_mayor_m": 0.86,
+        "diametro_menor_m": 0.76,
+        "longitud_aprovechable_m": 10.55,
+        "volumen_m3": 5.436,
+        "observaciones": null
+      },
+      {
+        "n": 3,
+        "fecha": "01/09/2025",
+        "codigo_de_la_troza": "1170/B",
+        "r": 0,
+        "especie": "Hymenaea oblongifolia Huber",
+        "diametro_mayor_m": 0.76,
+        "diametro_menor_m": 0.7,
+        "longitud_aprovechable_m": 7.6,
+        "volumen_m3": 3.181,
+        "observaciones": null
+      },
+      {
+        "n": 4,
+        "fecha": "01/09/2025",
+        "codigo_de_la_troza": "1170/C",
+        "r": 0,
+        "especie": "Hymenaea oblongifolia Huber",
+        "diametro_mayor_m": 0.7,
+        "diametro_menor_m": 0.63,
+        "longitud_aprovechable_m": 6.34,
+        "volumen_m3": 2.202,
+        "observaciones": null
+      }
+    ],
+    "despacho": [
+      {
+        "n": 148,
+        "fechas": "02/09/2025",
+        "codigo_de_troza": "1170/C",
+        "codigo_de_despacho": "1170-C",
+        "numero_de_gtf": "017-0001311",
+        "observaciones": null,
+        "muestra": 1
+      },
+      {
+        "n": 254,
+        "fechas": "08/09/2025",
+        "codigo_de_troza": "1170/B",
+        "codigo_de_despacho": "1170-B",
+        "numero_de_gtf": "017-0001332",
+        "observaciones": null,
+        "muestra": 1
+      },
+      {
+        "n": 350,
+        "fechas": "09/09/2025",
+        "codigo_de_troza": "1170/A",
+        "codigo_de_despacho": "1170-A",
+        "numero_de_gtf": "017-0001349",
+        "observaciones": null,
+        "muestra": 1
+      }
+    ]
+  },
+  "evidence_hash_sha256": "a7252bfc45f98497d058bea506d225913db9b4929f5bf706e48df424a580bf32"
+}

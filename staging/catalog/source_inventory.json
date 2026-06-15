@@ -1,0 +1,77 @@
+{
+  "repo_root": "C:\\Users\\Pedro Lopevia\\Escritorio\\transformagob-osinfor",
+  "sources": [
+    {
+      "relative_path": "raw/censo/censo_forestal.xlsx",
+      "size_bytes": 1069584,
+      "sha256": "e8ce02ff0e3fde8204a84b5a9d9ac329eb7b9c2ffe64f5221fbebe0950c804f0",
+      "sheets": [
+        "CENSO"
+      ],
+      "pages": null
+    },
+    {
+      "relative_path": "raw/muestra/muestra_supervisada.xlsx",
+      "size_bytes": 179423,
+      "sha256": "fd76b848f9675cff741fb65279154a82911605eeca3e264b4ccebb97c435d887",
+      "sheets": [
+        "Hoja1"
+      ],
+      "pages": null
+    },
+    {
+      "relative_path": "raw/libro/pc01/libro_operaciones_pc01.xlsx",
+      "size_bytes": 121601,
+      "sha256": "0ac1767598bbd4882248252eb0b88245edf85bf9d6debb83b6463cd981e481fd",
+      "sheets": [
+        "TALA",
+        "TROZADO",
+        "DESPACHO"
+      ],
+      "pages": null
+    },
+    {
+      "relative_path": "raw/libro/pc01/libro_operaciones_pc02.xlsx",
+      "size_bytes": 181391,
+      "sha256": "cd4b5cd809bac05821fc26f57a4089af2cd6c4c55939e9d9160449ad64d7c0d3",
+      "sheets": [
+        "tala",
+        "trozado",
+        "despacho"
+      ],
+      "pages": null
+    },
+    {
+      "relative_path": "raw/libro/pc01/libro_operaciones_pc03.xlsx",
+      "size_bytes": 490257,
+      "sha256": "a5ca04406f81bfb998240e5a00c257f14d918785e0d3bb81075acb9254970449",
+      "sheets": [
+        "tala",
+        "trozado",
+        "despacho"
+      ],
+      "pages": null
+    },
+    {
+      "relative_path": "raw/balance/pc01/balance_extraccion_pc01.pdf",
+      "size_bytes": 4458,
+      "sha256": "51c007708eea056282badc44b8ed11b53fd79c2f107ec3ff869422577677c751",
+      "sheets": null,
+      "pages": 1
+    },
+    {
+      "relative_path": "raw/balance/pc01/balance_extraccion_pc02.pdf",
+      "size_bytes": 4499,
+      "sha256": "06b185679924d34a6b9d9d4d242580f15dcd144ff8329acdf5dfeb1451322369",
+      "sheets": null,
+      "pages": 1
+    },
+    {
+      "relative_path": "raw/balance/pc01/balance_extraccion_pc03.pdf",
+      "size_bytes": 4499,
+      "sha256": "440a8f51d13685d347dd073dcf20e4c8ddf028d3a3b9b5d3fc750212a1f406b1",
+      "sheets": null,
+      "pages": 1
+    }
+  ]
+}

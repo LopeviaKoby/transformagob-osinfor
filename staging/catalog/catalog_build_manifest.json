@@ -1,0 +1,37 @@
+{
+  "build_target": "db/huella_catalog.db",
+  "database_sha256": "c0c1295ae161e27cfa689ec78b02f255ea43fb683f0967fa3d2b47e19fd5ccad",
+  "database_size_bytes": 100458496,
+  "source_inventory_path": "staging/catalog/source_inventory.json",
+  "quality_report_path": "staging/catalog/catalog_quality_report.json",
+  "balance_extraction_text_path": "staging/catalog/balance_extraction_text.json",
+  "source_sha256": {
+    "raw/censo/censo_forestal.xlsx": "e8ce02ff0e3fde8204a84b5a9d9ac329eb7b9c2ffe64f5221fbebe0950c804f0",
+    "raw/muestra/muestra_supervisada.xlsx": "fd76b848f9675cff741fb65279154a82911605eeca3e264b4ccebb97c435d887",
+    "raw/libro/pc01/libro_operaciones_pc01.xlsx": "0ac1767598bbd4882248252eb0b88245edf85bf9d6debb83b6463cd981e481fd",
+    "raw/libro/pc01/libro_operaciones_pc02.xlsx": "cd4b5cd809bac05821fc26f57a4089af2cd6c4c55939e9d9160449ad64d7c0d3",
+    "raw/libro/pc01/libro_operaciones_pc03.xlsx": "a5ca04406f81bfb998240e5a00c257f14d918785e0d3bb81075acb9254970449",
+    "raw/balance/pc01/balance_extraccion_pc01.pdf": "51c007708eea056282badc44b8ed11b53fd79c2f107ec3ff869422577677c751",
+    "raw/balance/pc01/balance_extraccion_pc02.pdf": "06b185679924d34a6b9d9d4d242580f15dcd144ff8329acdf5dfeb1451322369",
+    "raw/balance/pc01/balance_extraccion_pc03.pdf": "440a8f51d13685d347dd073dcf20e4c8ddf028d3a3b9b5d3fc750212a1f406b1"
+  },
+  "table_counts": {
+    "titles": 1,
+    "trees": 10468,
+    "supervisions": 777,
+    "fellings": 4319,
+    "logs": 6244,
+    "dispatches": 6190,
+    "species_balances": 96,
+    "trace_catalog": 10468,
+    "trace_checks": 146552,
+    "search_identifiers": 31987
+  },
+  "foreign_key_check": [],
+  "status_distribution": {
+    "INCOMPLETO": 6450,
+    "POR_REVISAR": 3414,
+    "CONSISTENTE": 115,
+    "NO_EVALUADO": 489
+  }
+}

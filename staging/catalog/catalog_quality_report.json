@@ -1,0 +1,106 @@
+{
+  "fuentes_procesadas": [
+    "raw/censo/censo_forestal.xlsx",
+    "raw/muestra/muestra_supervisada.xlsx",
+    "raw/libro/pc01/libro_operaciones_pc01.xlsx",
+    "raw/libro/pc01/libro_operaciones_pc02.xlsx",
+    "raw/libro/pc01/libro_operaciones_pc03.xlsx",
+    "raw/balance/pc01/balance_extraccion_pc01.pdf",
+    "raw/balance/pc01/balance_extraccion_pc02.pdf",
+    "raw/balance/pc01/balance_extraccion_pc03.pdf"
+  ],
+  "filas_por_fuente": {
+    "raw/censo/censo_forestal.xlsx": {
+      "processed_rows": 10476,
+      "loaded_rows": 10468,
+      "rejected_rows": 8
+    },
+    "raw/muestra/muestra_supervisada.xlsx": {
+      "processed_rows": 777,
+      "loaded_rows": 777,
+      "rejected_rows": 0
+    },
+    "raw/libro/pc01/libro_operaciones_pc01.xlsx": {
+      "processed_rows": 2240,
+      "loaded_rows": 2189,
+      "rejected_rows": 0
+    },
+    "raw/libro/pc01/libro_operaciones_pc02.xlsx": {
+      "processed_rows": 3343,
+      "loaded_rows": 3281,
+      "rejected_rows": 0
+    },
+    "raw/libro/pc01/libro_operaciones_pc03.xlsx": {
+      "processed_rows": 11463,
+      "loaded_rows": 11283,
+      "rejected_rows": 0
+    },
+    "raw/balance/pc01/balance_extraccion_pc01.pdf": {
+      "processed_rows": 33,
+      "loaded_rows": 32,
+      "rejected_rows": 1
+    },
+    "raw/balance/pc01/balance_extraccion_pc02.pdf": {
+      "processed_rows": 33,
+      "loaded_rows": 32,
+      "rejected_rows": 1
+    },
+    "raw/balance/pc01/balance_extraccion_pc03.pdf": {
+      "processed_rows": 33,
+      "loaded_rows": 32,
+      "rejected_rows": 1
+    }
+  },
+  "duplicados": {
+    "census": 8,
+    "supervision": 0,
+    "fellings": 293,
+    "logs": 0,
+    "dispatches": 0,
+    "balances": 0
+  },
+  "trees_without_felling": 6149,
+  "fellings_without_tree": 0,
+  "felling_without_logs": 1102,
+  "logs_without_tree": 0,
+  "logs_without_dispatch": 37,
+  "dispatches_without_logs": 0,
+  "gtf_with_multiple_logs": 1059,
+  "gtf_crossing_titles_or_parcels": {},
+  "trees_without_supervision": 9691,
+  "species_differences": 3,
+  "volume_increases": 814,
+  "balances_loaded": 96,
+  "balances_rejected": 3,
+  "balances_without_association": 0,
+  "invalid_volume_values": 0,
+  "records_with_r": {
+    "fellings": 4612,
+    "logs": 6244
+  },
+  "source_r_interpreted": false,
+  "state_distribution": {
+    "INCOMPLETO": 6450,
+    "POR_REVISAR": 3414,
+    "CONSISTENTE": 115,
+    "NO_EVALUADO": 489
+  },
+  "identifiers_by_type": {
+    "ARBOL": 10468,
+    "TITULO": 10468,
+    "TROZA": 6244,
+    "GTF": 4807
+  },
+  "table_counts": {
+    "titles": 1,
+    "trees": 10468,
+    "supervisions": 777,
+    "fellings": 4319,
+    "logs": 6244,
+    "dispatches": 6190,
+    "species_balances": 96,
+    "trace_catalog": 10468,
+    "trace_checks": 146552,
+    "search_identifiers": 31987
+  }
+}

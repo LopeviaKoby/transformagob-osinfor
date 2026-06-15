@@ -1,0 +1,177 @@
+{
+  "schema_version": "2.0",
+  "case_id": "clean-pc01-501",
+  "case_type": "clean",
+  "join_key": {
+    "titulo_habilitante": "GOREMAD-GRRNYGA-DRFFS/DFFS-TAH/P-MAD-D-008-15",
+    "parcela_corta": "PC 01",
+    "codigo_arbol": "501"
+  },
+  "verification": {
+    "status": "CONSISTENTE",
+    "prototype_attestation_eligible": true,
+    "checks": {
+      "fuentes_completas": true,
+      "trozas_despachadas_registradas": true,
+      "especie_coincide_en_supervision": true,
+      "sin_observacion_critica": true,
+      "volumen_censo_mayor_igual_tala": true,
+      "volumen_tala_mayor_igual_trozado": true,
+      "campo_r_validado": false
+    },
+    "observations": null,
+    "excluded_rule": {
+      "field": "R",
+      "reason": "Significado no confirmado en las fuentes documentales revisadas."
+    }
+  },
+  "summary": {
+    "titular": "COMUNIDAD NATIVA BELGICA",
+    "plan_operativo": "PO 19",
+    "resolucion": "1120-2025-GOREMAD-GRFFS",
+    "especie_censo": "Brosimum guianense | Manchinga",
+    "especie_supervision": "Brosimum guianense | Manchinga",
+    "volumen_censo_m3": 5.881,
+    "volumen_tala_m3": 5.643,
+    "volumen_trozado_m3": 5.192,
+    "diferencia_tala_trozado_m3": 0.451,
+    "trozas": [
+      "501/A"
+    ],
+    "gtf": [
+      "017-0001426"
+    ]
+  },
+  "lineage": {
+    "censo": "raw/censo_forestal.xlsx",
+    "muestra_supervisada": "raw/muestra_supervisada.xlsx",
+    "tala": "raw/libro_operaciones_pc01.xlsx#TALA",
+    "trozado": "raw/libro_operaciones_pc01.xlsx#TROZADO",
+    "despacho": "raw/libro_operaciones_pc01.xlsx#DESPACHO",
+    "balance": "Pendiente de integración en la siguiente micro-fase"
+  },
+  "records": {
+    "censo": [
+      {
+        "": 1799,
+        "num_thabilitante": "GOREMAD-GRRNYGA-DRFFS/DFFS-TAH/P-MAD-D-008-15",
+        "titular_actual": "COMUNIDAD NATIVA BELGICA",
+        "modalidad": "Permisos Forestales - Comunidad Nativa",
+        "departamento": "MADRE DE DIOS",
+        "provincia": "TAHUAMANU",
+        "distrito": "IÑAPARI",
+        "aresolucion_num": "1120-2025-GOREMAD-GRFFS",
+        "aresolucion_fecha": "2025-07-22T00:00:00",
+        "nombre_poa": "PO 19",
+        "especies_aresolucion": "Brosimum guianense | Manchinga",
+        "especies": "Brosimum guianense | Manchinga",
+        "bloque": " ",
+        "faja": " ",
+        "codigo": 501,
+        "volumen": 5.881,
+        "dap": 80,
+        "ac": 18,
+        "dmc": 41,
+        "zona": "19S",
+        "coordenada_este": 406299,
+        "coordenada_norte": 8785463,
+        "condicion": "Aprovechable",
+        "estado": "En Pie",
+        "pca": "PC 01",
+        "observacion": "[NULL]"
+      }
+    ],
+    "muestra_supervisada": [
+      {
+        "": 157,
+        "anio_informe": 2026,
+        "num_thabilitante": "GOREMAD-GRRNYGA-DRFFS/DFFS-TAH/P-MAD-D-008-15",
+        "modalidad": "Permisos Forestales - Comunidad Nativa",
+        "departamento": "MADRE DE DIOS",
+        "provincia": "TAHUAMANU",
+        "distrito": "IÑAPARI",
+        "num_informe": "001049-2026-OSINFOR/DSFFFS",
+        "fecha_informe": "2026-05-18T00:00:00",
+        "aresolucion_num": "1120-2025-GOREMAD-GRFFS",
+        "aresolucion_fecha": "2025-07-22T00:00:00",
+        "nombre_poa": "PO 19",
+        "poa_campo": "PO 19",
+        "bloque": " ",
+        "bloque_campo": 0,
+        "faja": "[NULL]",
+        "faja_2": 0,
+        "codigo": 501,
+        "codigo_campo": 501,
+        "cod_especies": 3059,
+        "desc_especies": "Brosimum guianense | Manchinga",
+        "desc_especies_campo": "Brosimum guianense | Manchinga",
+        "coincide_especies": "SI",
+        "zona": "19S",
+        "zona_campo": "19S",
+        "coordenada_este": 406299,
+        "coordenada_este_campo": 406308,
+        "coordenada_norte": 8785463,
+        "coordenada_norte_campo": 8785465,
+        "dap": 80,
+        "dap_campo": 0,
+        "dap_campo1": 82,
+        "dap_campo2": 70,
+        "mae_tip_mmedirdap": 0,
+        "mmedir_dap": " ",
+        "ac": 18,
+        "ac_campo": 13.3,
+        "desc_eestado": "En Pie",
+        "desc_eestado_campo": "Movilizado",
+        "desc_econdicion": "Aprovechable",
+        "desc_econdicion_campo": "Aprovechable",
+        "cant_sobre_estima_diametro": 0,
+        "porc_sobre_estima_diametro": 0,
+        "cant_sub_estima_diametro": 0,
+        "porc_sub_estima_diametro": 0,
+        "observacion": "D1: Culata y L: Lo",
+        "pca": "PC01",
+        "pca_campo": "PC 01"
+      }
+    ],
+    "tala": [
+      {
+        "n": 316,
+        "fecha": "04/08/2025",
+        "codigo_del_arbol": 501,
+        "r": 0,
+        "especie": "Brosimum guianense (Aubl.) Huber Manchinga",
+        "diametro_mayor_m": 0.75,
+        "diametro_menor_m": 0.72,
+        "longitud_aprovechable_m": 13.3,
+        "volumen_m3": 5.643,
+        "observaciones": null
+      }
+    ],
+    "trozado": [
+      {
+        "n": 379,
+        "fecha": "04/09/2025",
+        "codigo_de_la_troza": "501/A",
+        "r": 0,
+        "especie": "Brosimum guianense (Aubl.) Huber",
+        "diametro_mayor_m": 0.7,
+        "diametro_menor_m": 0.71,
+        "longitud_aprovechable_m": 13.3,
+        "volumen_m3": 5.192,
+        "observaciones": null
+      }
+    ],
+    "despacho": [
+      {
+        "n": 714,
+        "fechas": "13/09/2025",
+        "codigo_de_troza": "501/A",
+        "codigo_de_despacho": "501-A",
+        "numero_de_gtf": "017-0001426",
+        "observaciones": null,
+        "muestra": 1
+      }
+    ]
+  },
+  "evidence_hash_sha256": "4c96a56231688b3723a64a724808cfdd6345f8c5469c3213c8b21f249a9fada6"
+}
