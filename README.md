@@ -1,6 +1,6 @@
-# Huella Digital del Árbol
+# Tree Greenprint - Huella Digital del Árbol
 
-**Huella Digital del Árbol** es un prototipo tecnológico desarrollado para **OSINFOR** diseñado para consolidar evidencia forestal y reconstruir la trazabilidad del linaje maderable a lo largo de su cadena de valor.
+**Tree Greenprint - Huella Digital del Árbol** es un prototipo tecnológico desarrollado para el **Organismo Supervisor de los Recursos Forestales y de Fauna Silvestre del Perú (OSINFOR)** en el marco de la Hackaton Transformagob 2026 en el Desafío N° 6, diseñado para consolidar evidencia forestal y reconstruir la trazabilidad del linaje maderable a lo largo de su cadena de valor.
 
 ---
 
@@ -21,4 +21,4 @@ La finalidad del proyecto es servir como un portal de consulta pública y transp
 > [!NOTE]  
 > Este prototipo **no declara legalidad**, no reemplaza a las Guías de Transporte Forestal (GTF), ni sustituye certificaciones o decisiones oficiales de OSINFOR.
 
-Para ver los detalles técnicos de cómo instalar, configurar y replicar este proyecto paso a paso, consulta la [Guía de Replicación](file:///c:/Users/Pedro Lopevia/Escritorio/transformagob-osinfor/replicacion.md).
+Para ver los detalles técnicos de cómo instalar, configurar, replicar y desplegar este proyecto paso a paso, consulta la [Documentación Técnica](file:///c:/Users/Pedro Lopevia/Escritorio/transformagob-osinfor/DOCUMENTACION_TECNICA.md).
