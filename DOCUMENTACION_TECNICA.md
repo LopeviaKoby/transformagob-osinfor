@@ -8,10 +8,10 @@ Esta guía detalla los pasos técnicos, el flujo de procesamiento de datos y las
 
 Asegúrate de contar con el siguiente software instalado en tu entorno local o de desarrollo:
 - **Python 3.10 o superior**
-- **Node.js (versión LTS recomendada)**
-- **pnpm** (gestor de paquetes para el frontend)
+- **Node.js 22.12 o superior (versión LTS recomendada)**
+- **pnpm 11.0 o superior (gestor de paquetes para el frontend)**
 - **Git**
-- **Docker** (opcional, recomendado para producción)
+- **Docker (opcional, recomendado para producción)** 
 
 ---
 
